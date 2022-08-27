@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="solar.css">
+    <title>Solar System</title>
+</head>
+<body>
+    <div class="content">
+    <div id="main-content">
+        <h1>Calculate a weight of an object on a Planet</h1>
+
+        <div id="input-block">
+            <form id="submit">
+            <input type="number" id="weight" placeholder="Enter weight">
+            <select name="Planet" id="Planet">
+                <option value="earth">Earth</option>
+                <option value="jupiter">jupiter</option>
+                <option value="mars">mars</option>
+                <option value="mercury">mercury</option>
+                <option value="moon">moon</option>
+                <option value="neptune">neptune</option>
+                <option value="pluto">pluto</option>
+                <option value="saturn">saturn</option>
+                <option value="uranus">uranus</option>
+                <option value="venus">venus</option>
+            </select>
+            <button>Calculate Wt.</button>
+        </form>
+        </div>
+        <div class="sec-container">
+        <div id="img" style=" background-image: url(./img/earth.png);" ></div>
+        <div id="calcWeight">
+            <div class="innerdiv">
+            <p>The weight of the object on <h2 id="planetName">MERCURY</h2></p>
+            <h1 id="weightTag">370.00 N</h1>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
+<script src="solar.js"></script>
+</body>
+</html>
