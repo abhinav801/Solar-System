@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(./img/galaxy.gif);
+    color: white;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+}
+#main-content > h1{
+font-size: 3.3rem;
+font-weight: 400;
+}
+#input-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:70vw;
+    margin: 70px 0px 40px 0px;
+
+}
+#input-block >form> input{
+width: 280px;
+height: 50px;
+font-size: 1.1rem;
+border: none;
+outline: none;
+text-align: center;
+}
+#Planet{
+    width: 200px;
+    height: 50px;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    text-align: center; 
+}
+#input-block >form> button{
+    width: 160px;
+    height: 50px;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.sec-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:60vw;
+    height: 65vh;
+    background-color: rgb(236, 236, 236 , 0.1);
+}
+#img{
+    margin: 30px;
+   
+    width:30vw;
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#calcWeight{
+    margin: 30px;
+    width:30vw;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerdiv{
+    height: 30vh;
+    width: 30vw;
+    background-color: rgb(236, 236, 236 , 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.innerdiv > p{
+font-size: 1.8rem;
+font-weight: 1.2rem;
+letter-spacing: 3px;
+margin: 3px;
+}
+.innerdiv > p > h2{
+    font-size: 1.7rem;
+    font-weight: 1.8rem;
+}
+.innerdiv > h1{
+    font-size: 1.8rem;
+    font-weight: 1.8rem;
+}
+    
+
