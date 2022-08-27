@@ -30,9 +30,6 @@ let totWeight
           break;
         case 'jupiter':
           image.style.backgroundImage = 'url("./img/jupiter.png")'
-          if(totWeight >80)
-          weightTag.innerHTML = 'Bahut Zyada'
-          else
           weightTag.innerHTML = totWeight * 2.5275 + "Kg"
           planetName.innerHTML = selectedPlanet.toUpperCase()
           break;
